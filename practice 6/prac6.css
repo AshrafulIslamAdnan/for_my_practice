@@ -2,6 +2,30 @@
     padding: 0;
     margin: 0;
 }
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 70px;
+    width: 65%;
+}
+
+.nav ul li{
+    list-style: none;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    
+}
+
  .second{
     color: pink;
    
@@ -16,13 +40,7 @@
     
 
 }
-p{
-    background-color: red;
-    display: inline_block;
-    width: 180px;
-    height: 50px;
-    text-align: center;
-}
+
 ol{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -41,4 +59,53 @@ ol{
     background-size: cover;
     
     background-position: center;
+}
+.main{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin:0 2rem;
+}
+.box {
+    height: 200px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.box img{
+    height: 50px;
+
+    
+}
+.main1 form fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 30px;
+    
+    
+}
+.fun{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px;
+
+}
+.fun div{
+
+    height:300px; 
+    width: 200px;
+    background-color: red;
+
 }
